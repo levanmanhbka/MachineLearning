@@ -49,7 +49,7 @@ for epoch in range(epochs):
     print('epoch={} loss={}'.format(epoch,loss_value))
 print('trained weights value')
 print('w0=',w0, ' w1=', w1)
-print('Find out model with X = {} + {} * X'.format(w0, w1))
+print('Find out model with Y = {} + {} * X'.format(w0, w1))
 
 fig = plt.figure('trained model')
 ax1 = fig.add_subplot(111)
